@@ -3,57 +3,60 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Llc — Coming Soon</title>
-<meta name="description" content="Llc is launching soon. Join the waitlist.">
+<title>Form an LLC in 15 Minutes — Legit</title>
+<meta name="description" content="Form an LLC in 15 minutes. Chat with Legit, upload your ID, and get pre-filled state forms, filing docs, and a document vault — one $39 launch kit.">
+<link rel="canonical" href="https://legit.mehyar.us">
+<meta property="og:title" content="Form an LLC in 15 Minutes — Legit">
+<meta property="og:description" content="Chat → ID photo → pre-filled forms → $39 launch kit. Get legit in 15 minutes.">
+<meta property="og:url" content="https://legit.mehyar.us">
 <style>
   * { box-sizing: border-box; margin: 0; padding: 0; }
   body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
-         min-height: 100vh; display: flex; align-items: center; justify-content: center;
-         background: #0a0a0f; color: #f2f2f5; padding: 24px; }
-  .card { max-width: 520px; width: 100%; text-align: center; }
-  h1 { font-size: 2.4rem; letter-spacing: -0.02em; margin-bottom: 12px; }
-  p.sub { color: #a1a1aa; font-size: 1.05rem; margin-bottom: 28px; line-height: 1.6; }
-  form { display: flex; gap: 8px; }
-  input[type=email] { flex: 1; padding: 14px 16px; border-radius: 10px; border: 1px solid #2a2a35;
-                     background: #14141b; color: #fff; font-size: 1rem; }
-  input[type=email]:focus { outline: none; border-color: #6d6df5; }
-  button { padding: 14px 22px; border-radius: 10px; border: 0; background: #6d6df5; color: #fff;
-           font-size: 1rem; font-weight: 600; cursor: pointer; }
-  button:hover { background: #5a5ae0; }
-  .ok { display: none; color: #4ade80; margin-top: 16px; font-weight: 600; }
-  .foot { margin-top: 36px; color: #52525b; font-size: .85rem; }
-  @media (max-width: 480px) { form { flex-direction: column; } h1 { font-size: 1.9rem; } }
+         min-height: 100vh; background: #0a0a0f; color: #f2f2f5;
+         padding: 24px; display: flex; align-items: center; justify-content: center; }
+  .wrap { max-width: 640px; width: 100%; text-align: center; }
+  h1 { font-size: 2.6rem; letter-spacing: -0.02em; margin-bottom: 14px; line-height: 1.15; }
+  h1 .accent { color: #6d6df5; }
+  p.lede { color: #a1a1aa; font-size: 1.1rem; line-height: 1.65; margin-bottom: 30px; }
+  .steps { text-align: left; margin: 0 auto 34px; max-width: 480px;
+           display: grid; gap: 12px; }
+  .step { background: #14141b; border: 1px solid #26262f; border-radius: 12px;
+          padding: 14px 16px; font-size: .98rem; line-height: 1.5; }
+  .step b { color: #fff; }
+  .step span { color: #a1a1aa; }
+  .cta { display: inline-block; padding: 16px 40px; border-radius: 12px;
+         background: #6d6df5; color: #fff; font-size: 1.15rem; font-weight: 700;
+         text-decoration: none; margin-bottom: 16px; }
+  .cta:hover { background: #5a5ae0; }
+  .price { color: #4ade80; font-weight: 600; margin-bottom: 34px; }
+  .disclaimer { color: #52525b; font-size: .8rem; line-height: 1.5;
+                max-width: 520px; margin: 0 auto; }
+  .foot { margin-top: 24px; color: #3f3f46; font-size: .85rem; }
+  @media (max-width: 480px) { h1 { font-size: 2rem; } }
 </style>
 </head>
 <body>
-  <div class="card">
-    <h1>Llc</h1>
-    <p class="sub">We're building something worth your attention.<br>Join the waitlist — you'll hear from us first.</p>
-    <!-- Phase 2: point data-endpoint at the Cloudflare Worker subscribe route -->
-    <form id="waitlist" data-endpoint="">
-      <input type="email" name="email" placeholder="you@example.com" required aria-label="Email">
-      <button type="submit">Notify me</button>
-    </form>
-    <p class="ok" id="okmsg">You're on the list. ✅</p>
-    <p class="foot">llc.mehyar.us · built in the open</p>
+  <div class="wrap">
+    <h1>Form an LLC in <span class="accent">15 minutes</span></h1>
+    <p class="lede">
+      Starting a business shouldn't mean wrestling with state forms.
+      <strong>Legit</strong> is the AI that forms your LLC through a simple chat —
+      no legalese, no paperwork marathons. Pick your state, confirm your details,
+      and get legit.
+    </p>
+    <div class="steps">
+      <div class="step"><b>1. Chat</b> <span>— answer a few plain-English questions about your business.</span></div>
+      <div class="step"><b>2. ID photo</b> <span>— snap your ID; Legit pre-fills the state forms for you.</span></div>
+      <div class="step"><b>3. Review &amp; pay</b> <span>— check the pre-filled form cards, unlock with a one-time $39.</span></div>
+      <div class="step"><b>4. Vault</b> <span>— your filing documents live in a personal document vault, plus post-formation guidance.</span></div>
+    </div>
+    <a class="cta" href="https://legit.mehyar.us">Start forming my LLC →</a>
+    <p class="price">$39 one-time launch kit · no subscriptions</p>
+    <p class="disclaimer">
+      Legit provides document-preparation software, not legal advice. Legit is not a law firm.
+      State filing fees are charged by your state and are separate from the $39 launch kit.
+    </p>
+    <p class="foot">llc.mehyar.us · a Legit property</p>
   </div>
-<script>
-  document.getElementById('waitlist').addEventListener('submit', async (e) => {
-    e.preventDefault();
-    const form = e.target, email = new FormData(form).get('email');
-    const endpoint = form.dataset.endpoint;
-    try {
-      if (endpoint) {
-        await fetch(endpoint, { method: 'POST',
-          headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ email, venture: 'llc' }) });
-      } else {
-        localStorage.setItem('waitlist:' + email, new Date().toISOString());
-      }
-    } catch (err) { /* offline fallback below */ }
-    form.style.display = 'none';
-    document.getElementById('okmsg').style.display = 'block';
-  });
-</script>
 </body>
 </html>
